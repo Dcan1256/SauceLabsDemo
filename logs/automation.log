@@ -1,0 +1,40 @@
+19:02:57.541 [main] INFO  testCases.TC_001_Login - ***** Starting TC_001_Login test case *****
+19:02:57.554 [main] INFO  testCases.TC_001_Login - Filling username Box
+19:02:58.618 [main] INFO  testCases.TC_001_Login - Filling password Box
+19:02:59.650 [main] INFO  testCases.TC_001_Login - Clicking login Button
+19:03:00.887 [main] INFO  testCases.TC_001_Login - Now we are in the main page!!!
+19:03:00.888 [main] INFO  testCases.TC_001_Login - Comparing actual and expected header of main page
+19:03:00.904 [main] INFO  testCases.TC_001_Login - ***** Finishing TC_001_Login test case *****
+19:03:04.038 [main] INFO  testCases.TC_002_Sorting - ***** Starting TC_002_Sorting test case *****
+19:03:04.039 [main] INFO  testCases.TC_002_Sorting - using express login referenced by TC_001_Login
+19:03:07.354 [main] INFO  testCases.TC_002_Sorting - Now we are in the main page
+19:03:07.355 [main] INFO  testCases.TC_002_Sorting - Selecting value from sort dropdown
+19:03:07.365 [main] INFO  testCases.TC_002_Sorting - The value we selected for sorting is A-Z
+19:03:07.406 [main] INFO  testCases.TC_002_Sorting - Validating sort result
+19:03:07.407 [main] INFO  testCases.TC_002_Sorting - ***** Finishing TC_002_Sorting test case *****
+19:03:10.522 [main] INFO  testCases.TC_003_Logout - ***** Strating TC_003_Logout test case *****
+19:03:10.522 [main] INFO  testCases.TC_003_Logout - Calling express login method referenced by TC_001_Login
+19:03:13.841 [main] INFO  testCases.TC_003_Logout - We are in main page
+19:03:13.841 [main] INFO  testCases.TC_003_Logout - Clicking menu tab
+19:03:14.054 [main] INFO  testCases.TC_003_Logout - Clicking logout button
+19:03:14.265 [main] INFO  testCases.TC_003_Logout - Getting header text of login page
+19:03:14.278 [main] INFO  testCases.TC_003_Logout - Comparing the actual and expected text of login page header
+19:03:14.278 [main] INFO  testCases.TC_003_Logout - ***** Finishing TC_003_Logout test case *****
+19:03:17.688 [main] INFO  testCases.TC_004_FullCheckOut - ***** Starting TC_004_FullCheckOut test case *****
+19:03:21.006 [main] INFO  testCases.TC_004_FullCheckOut - We are in the main page
+19:03:21.006 [main] INFO  testCases.TC_004_FullCheckOut - Adding all items available in to our cart
+19:03:22.260 [main] INFO  testCases.TC_004_FullCheckOut - Cheking is total number of items in the cart matching with total number of available items
+19:03:22.273 [main] INFO  testCases.TC_004_FullCheckOut - Clicking cart button to go to cart
+19:03:22.493 [main] INFO  testCases.TC_004_FullCheckOut - Cheking is total number of items in the cart matching with total number of available items
+19:03:22.522 [main] INFO  testCases.TC_004_FullCheckOut - We are in the cart page
+19:03:22.739 [main] INFO  testCases.TC_004_FullCheckOut - We are in the checkout page
+19:03:22.740 [main] INFO  testCases.TC_004_FullCheckOut - filling the information requested
+19:03:23.018 [main] INFO  testCases.TC_004_FullCheckOut - We are in the checkout overview page
+19:03:23.032 [main] INFO  testCases.TC_004_FullCheckOut - Validating pre tax actual and expected values are same
+19:03:23.072 [main] INFO  testCases.TC_004_FullCheckOut - Validating after tax total actual and expected values are same
+19:03:23.297 [main] INFO  testCases.TC_004_FullCheckOut - We are in Checkout Completed Page
+19:03:23.298 [main] INFO  testCases.TC_004_FullCheckOut - Validating our checkout is completed successfully via confirmation message
+19:03:23.529 [main] INFO  testCases.TC_004_FullCheckOut - We are in back in main page again
+19:03:23.530 [main] INFO  testCases.TC_004_FullCheckOut - calling express logout referenced by TC_003_Logout
+19:03:23.962 [main] INFO  testCases.TC_004_FullCheckOut - Validating we logged out successfully
+19:03:23.967 [main] INFO  testCases.TC_004_FullCheckOut - ***** Finishing TC_004_FullCheckOut test case *****

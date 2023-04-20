@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SauceAppSuite">
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager" />
+    </listeners>
+
+    <test thread-count="5" name="SauceAppTest">
+        <parameter name="browser" value="firefox" />    <!-- passing browser parameter to BaseClass ->Setup() -->
+        <classes>
+
+
+            <class name="testCases.TC_001_Login"/>
+            <class name="testCases.TC_002_Sorting"/>
+            <class name="testCases.TC_003_Logout"/>
+            <class name="testCases.TC_004_FullCheckOut"/>
+            
+
+        </classes>
+    </test><!--SauceAppTest-->
+</suite> <!--SauceAppSuit-->
